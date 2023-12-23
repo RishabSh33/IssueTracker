@@ -26,6 +26,7 @@
     <!-- how many bugs are their -->
         <div class="circle"> 
             <p>
+                <i class="fa-solid fa-bug"></i>
                 Bug:
                 <%= issue.length%>
             </p>
@@ -66,7 +67,7 @@
                     <!-- search by author -->
                     <form action="/issue/filterIssue" method="post">
                         <div class="user-box">
-                            <input type="text" name="searchAuthor" required>
+                            <input type="text" name="searchAuthor" autocomplete="off" required>
                             <label for="">Author</label>
                         </div>
                         <input type="hidden" name="projectId" value="<%= project._id%>">
@@ -77,7 +78,7 @@
                     <!-- search by title or decription -->
                     <form action="/issue/filterIssue" method="post">
                         <div class="user-box">
-                            <input type="text" name="searchTitleDesc" required>
+                            <input type="text" name="searchTitleDesc" autocomplete="off" required>
                             <label for="">Title or Description</label>
                         </div>
                         <input type="hidden" name="projectId" value="<%= project._id%>">

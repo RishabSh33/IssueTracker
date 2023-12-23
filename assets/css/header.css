@@ -1,6 +1,8 @@
 header .heading {
   display: flex;
-  justify-content: space-around; }
+  justify-content: space-around;
+  color: #b7b2b2;
+  text-shadow: -6px 7px 5px #00000096; }
   header .heading p {
     margin: auto;
     margin-left: 150px;
@@ -13,7 +15,8 @@ header .heading {
     cursor: pointer;
     text-decoration: none;
     font-size: 25px;
-    padding: 10px; }
+    padding: 10px;
+    color: #f7a5a5; }
     header .heading a:hover {
       color: white;
-      background-color: black; }
+      background-color: transparent; }

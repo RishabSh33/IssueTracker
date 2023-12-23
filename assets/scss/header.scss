@@ -3,6 +3,8 @@ header{
     .heading{
         display:flex;
         justify-content: space-around;
+        color: #b7b2b2;
+        text-shadow: -6px 7px 5px #00000096;
         p{
             margin: auto;    
             margin-left: 150px;
@@ -18,9 +20,10 @@ header{
                 text-decoration: none;
                 font-size: 25px;
                 padding: 10px;
+                color:rgb(247, 165, 165);
                 &:hover{
                     color: white;
-                    background-color: black;
+                    background-color: transparent;
                 }           
         }
     }

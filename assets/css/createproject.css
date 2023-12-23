@@ -12,7 +12,7 @@
   #createProject .create-box h2 {
     margin: 0 0 30px;
     padding: 0;
-    color: #fff;
+    color: #f7a5a5;
     text-align: center; }
   #createProject .create-box .user-box {
     position: relative; }
@@ -29,7 +29,7 @@
       #createProject .create-box .user-box input:focus ~ label, #createProject .create-box .user-box input:valid ~ label {
         top: -20px;
         left: 0;
-        color: #03e9f4;
+        color: #a5eff3;
         font-size: 12px; }
     #createProject .create-box .user-box label {
       position: absolute;
@@ -61,11 +61,17 @@
     position: relative;
     display: inline-block;
     padding: 10px 20px;
-    color: gray;
     font-size: 16px;
     text-decoration: none;
-    text-transform: uppercase;
     overflow: hidden;
     transition: .5s;
-    margin-top: 40px;
-    letter-spacing: 4px; }
+    letter-spacing: 4px;
+    color: white;
+    border-radius: 30px;
+    background: #e35151;
+    border: none;
+    box-shadow: -4px 5px 8px 0px #252828;
+    font-family: 'Indie Flower', cursive; }
+  #createProject .create-box .SubmitBtn {
+    display: flex;
+    justify-content: center; }
