@@ -14,3 +14,4 @@ For development, you will only need Node.js and a node global package, Yarn, ins
 4. express-ejs-layouts
 5. mongoose
 6. node-sass-middleware
+ ---
